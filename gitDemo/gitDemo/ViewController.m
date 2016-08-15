@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _myString = @"ldjs";
+    [_myString stringByAppendingFormat:@"aljkf%@",@"我靠"];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
