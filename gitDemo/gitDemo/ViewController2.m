@@ -25,7 +25,7 @@
     _myString = @"ldjshghgh";
     _myString  =@"我爱你";
     Class appDele = NSClassFromString(@"ViewControll2");
-    
+    NSLog(@"");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
