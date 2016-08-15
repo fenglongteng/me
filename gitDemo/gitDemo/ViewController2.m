@@ -1,23 +1,31 @@
 //
-//  ViewController.m
+//  ViewControll2er.m
 //  gitDemo
 //
 //  Created by ComAnvei on 16/8/15.
 //  Copyright © 2016年 FLT. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ViewController2.h"
 
-@interface ViewController ()
+@interface ViewController2 ()
+
 @property(nonatomic,strong)NSString *myString;
+
 @end
 
-@implementation ViewController
+@implementation ViewController2
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _myString = @"ldjs";
+
+    _myString = @"appDelegate";
     [_myString stringByAppendingFormat:@"aljkf%@",@"我靠"];
+
+    _myString = @"ldjshghgh";
+    _myString  =@"我爱你";
+    Class appDele = NSClassFromString(@"ViewControll2");
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

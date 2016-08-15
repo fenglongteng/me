@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4807AE431D6166C700B1F56F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4807AE421D6166C700B1F56F /* main.m */; };
 		4807AE461D6166C700B1F56F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4807AE451D6166C700B1F56F /* AppDelegate.m */; };
-		4807AE491D6166C700B1F56F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4807AE481D6166C700B1F56F /* ViewController.m */; };
+		4807AE491D6166C700B1F56F /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4807AE481D6166C700B1F56F /* ViewController2.m */; };
 		4807AE4C1D6166C700B1F56F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4807AE4A1D6166C700B1F56F /* Main.storyboard */; };
 		4807AE4E1D6166C700B1F56F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4807AE4D1D6166C700B1F56F /* Assets.xcassets */; };
 		4807AE511D6166C700B1F56F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4807AE4F1D6166C700B1F56F /* LaunchScreen.storyboard */; };
@@ -39,8 +39,8 @@
 		4807AE421D6166C700B1F56F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4807AE441D6166C700B1F56F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4807AE451D6166C700B1F56F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4807AE471D6166C700B1F56F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4807AE481D6166C700B1F56F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4807AE471D6166C700B1F56F /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ViewController2.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4807AE481D6166C700B1F56F /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController2.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		4807AE4B1D6166C700B1F56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4807AE4D1D6166C700B1F56F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4807AE501D6166C700B1F56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 			children = (
 				4807AE441D6166C700B1F56F /* AppDelegate.h */,
 				4807AE451D6166C700B1F56F /* AppDelegate.m */,
-				4807AE471D6166C700B1F56F /* ViewController.h */,
-				4807AE481D6166C700B1F56F /* ViewController.m */,
+				4807AE471D6166C700B1F56F /* ViewController2.h */,
+				4807AE481D6166C700B1F56F /* ViewController2.m */,
 				4807AE4A1D6166C700B1F56F /* Main.storyboard */,
 				4807AE4D1D6166C700B1F56F /* Assets.xcassets */,
 				4807AE4F1D6166C700B1F56F /* LaunchScreen.storyboard */,
@@ -270,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4807AE491D6166C700B1F56F /* ViewController.m in Sources */,
+				4807AE491D6166C700B1F56F /* ViewController2.m in Sources */,
 				4807AE461D6166C700B1F56F /* AppDelegate.m in Sources */,
 				4807AE431D6166C700B1F56F /* main.m in Sources */,
 			);
@@ -498,6 +498,7 @@
 				4807AE6D1D6166C700B1F56F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4807AE6E1D6166C700B1F56F /* Build configuration list for PBXNativeTarget "gitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +507,7 @@
 				4807AE701D6166C700B1F56F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4807AE711D6166C700B1F56F /* Build configuration list for PBXNativeTarget "gitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +516,7 @@
 				4807AE731D6166C700B1F56F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

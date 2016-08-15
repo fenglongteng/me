@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ViewControll2er.h
 //  gitDemo
 //
 //  Created by ComAnvei on 16/8/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController2 : UIViewController
 
 
 @end
