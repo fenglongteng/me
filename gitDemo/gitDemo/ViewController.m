@@ -9,14 +9,16 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property(nonatomic,strong)NSString *myString;
+@property(nonatomic,strong)NSString *myString1;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _myString = @"ldjs";
+    _myString1 = @"ldjs";
+    _myString1  =@"我爱你";
     // Do any additional setup after loading the view, typically from a nib.
 }
 
