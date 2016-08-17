@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CocoaTouchFrameworkDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>gitDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>4807AE611D6166C700B1F56F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>48485CBF1D62BC21008E6C31</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>48485CC81D62BC21008E6C31</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -25,7 +25,12 @@
     _myString = @"ldjshghgh";
     _myString  =@"我爱你";
     Class appDele = NSClassFromString(@"ViewControll2");
-    NSLog(@"");
+    NSDictionary *wokao = @{@"dlj":@"ldj",@"kjld":@"ldjf3i",@"234":_myString};
+    
+    LogInfo(@"%@,%@",_myString,wokao);
+ 
+    
+   
     // Do any additional setup after loading the view, typically from a nib.
 }
 

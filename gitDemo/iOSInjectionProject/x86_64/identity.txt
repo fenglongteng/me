@@ -1,0 +1,2 @@
+/Users/comanvei/Library/Developer/Xcode/DerivedData/gitDemo-bpewwnfucbdapldpnrtqnmetqfyb/Build/Products/Debug-iphonesimulator/gitDemo.app
+

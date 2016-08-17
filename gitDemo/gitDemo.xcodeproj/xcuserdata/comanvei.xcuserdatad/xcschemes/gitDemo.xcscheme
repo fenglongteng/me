@@ -48,6 +48,16 @@
                ReferencedContainer = "container:gitDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "48485CC81D62BC21008E6C31"
+               BuildableName = "CocoaTouchFrameworkDemoTests.xctest"
+               BlueprintName = "CocoaTouchFrameworkDemoTests"
+               ReferencedContainer = "container:gitDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

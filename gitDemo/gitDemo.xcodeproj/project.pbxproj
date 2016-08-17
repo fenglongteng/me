@@ -15,6 +15,14 @@
 		4807AE511D6166C700B1F56F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4807AE4F1D6166C700B1F56F /* LaunchScreen.storyboard */; };
 		4807AE5C1D6166C700B1F56F /* gitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4807AE5B1D6166C700B1F56F /* gitDemoTests.m */; };
 		4807AE671D6166C700B1F56F /* gitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4807AE661D6166C700B1F56F /* gitDemoUITests.m */; };
+		48485CC31D62BC21008E6C31 /* CocoaTouchFrameworkDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 48485CC21D62BC21008E6C31 /* CocoaTouchFrameworkDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48485CCA1D62BC21008E6C31 /* CocoaTouchFrameworkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48485CC01D62BC21008E6C31 /* CocoaTouchFrameworkDemo.framework */; };
+		48485CD11D62BC21008E6C31 /* CocoaTouchFrameworkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48485CD01D62BC21008E6C31 /* CocoaTouchFrameworkDemoTests.m */; };
+		48485CD51D62BC21008E6C31 /* CocoaTouchFrameworkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48485CC01D62BC21008E6C31 /* CocoaTouchFrameworkDemo.framework */; };
+		48485CD61D62BC21008E6C31 /* CocoaTouchFrameworkDemo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48485CC01D62BC21008E6C31 /* CocoaTouchFrameworkDemo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48485CE01D62D949008E6C31 /* AlertControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48485CDF1D62D949008E6C31 /* AlertControllerView.m */; };
+		48485CE11D62DC46008E6C31 /* AlertControllerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 48485CDE1D62D949008E6C31 /* AlertControllerView.h */; };
+		48E5EF011D619C180019F289 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E5EF001D619C180019F289 /* Logger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +40,42 @@
 			remoteGlobalIDString = 4807AE3D1D6166C700B1F56F;
 			remoteInfo = gitDemo;
 		};
+		48485CCB1D62BC21008E6C31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4807AE361D6166C700B1F56F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48485CBF1D62BC21008E6C31;
+			remoteInfo = CocoaTouchFrameworkDemo;
+		};
+		48485CCD1D62BC21008E6C31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4807AE361D6166C700B1F56F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4807AE3D1D6166C700B1F56F;
+			remoteInfo = gitDemo;
+		};
+		48485CD31D62BC21008E6C31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4807AE361D6166C700B1F56F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48485CBF1D62BC21008E6C31;
+			remoteInfo = CocoaTouchFrameworkDemo;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		48485CDC1D62BC21008E6C31 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				48485CD61D62BC21008E6C31 /* CocoaTouchFrameworkDemo.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4807AE3E1D6166C700B1F56F /* gitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +94,17 @@
 		4807AE621D6166C700B1F56F /* gitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4807AE661D6166C700B1F56F /* gitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitDemoUITests.m; sourceTree = "<group>"; };
 		4807AE681D6166C700B1F56F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48485CC01D62BC21008E6C31 /* CocoaTouchFrameworkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaTouchFrameworkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48485CC21D62BC21008E6C31 /* CocoaTouchFrameworkDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaTouchFrameworkDemo.h; sourceTree = "<group>"; };
+		48485CC41D62BC21008E6C31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48485CC91D62BC21008E6C31 /* CocoaTouchFrameworkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaTouchFrameworkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48485CD01D62BC21008E6C31 /* CocoaTouchFrameworkDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaTouchFrameworkDemoTests.m; sourceTree = "<group>"; };
+		48485CD21D62BC21008E6C31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48485CDE1D62D949008E6C31 /* AlertControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlertControllerView.h; path = ../gitDemo/AlertControllerView.h; sourceTree = "<group>"; };
+		48485CDF1D62D949008E6C31 /* AlertControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlertControllerView.m; path = ../gitDemo/AlertControllerView.m; sourceTree = "<group>"; };
+		48E5EEFE1D619B430019F289 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		48E5EEFF1D619C180019F289 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		48E5EF001D619C180019F289 /* Logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48485CD51D62BC21008E6C31 /* CocoaTouchFrameworkDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +130,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		48485CBC1D62BC21008E6C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48485CC61D62BC21008E6C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48485CCA1D62BC21008E6C31 /* CocoaTouchFrameworkDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +154,8 @@
 				4807AE401D6166C700B1F56F /* gitDemo */,
 				4807AE5A1D6166C700B1F56F /* gitDemoTests */,
 				4807AE651D6166C700B1F56F /* gitDemoUITests */,
+				48485CC11D62BC21008E6C31 /* CocoaTouchFrameworkDemo */,
+				48485CCF1D62BC21008E6C31 /* CocoaTouchFrameworkDemoTests */,
 				4807AE3F1D6166C700B1F56F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +166,8 @@
 				4807AE3E1D6166C700B1F56F /* gitDemo.app */,
 				4807AE571D6166C700B1F56F /* gitDemoTests.xctest */,
 				4807AE621D6166C700B1F56F /* gitDemoUITests.xctest */,
+				48485CC01D62BC21008E6C31 /* CocoaTouchFrameworkDemo.framework */,
+				48485CC91D62BC21008E6C31 /* CocoaTouchFrameworkDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +179,9 @@
 				4807AE451D6166C700B1F56F /* AppDelegate.m */,
 				4807AE471D6166C700B1F56F /* ViewController2.h */,
 				4807AE481D6166C700B1F56F /* ViewController2.m */,
+				48E5EEFE1D619B430019F289 /* PrefixHeader.pch */,
+				48E5EEFF1D619C180019F289 /* Logger.h */,
+				48E5EF001D619C180019F289 /* Logger.m */,
 				4807AE4A1D6166C700B1F56F /* Main.storyboard */,
 				4807AE4D1D6166C700B1F56F /* Assets.xcassets */,
 				4807AE4F1D6166C700B1F56F /* LaunchScreen.storyboard */,
@@ -140,7 +217,39 @@
 			path = gitDemoUITests;
 			sourceTree = "<group>";
 		};
+		48485CC11D62BC21008E6C31 /* CocoaTouchFrameworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				48485CDE1D62D949008E6C31 /* AlertControllerView.h */,
+				48485CDF1D62D949008E6C31 /* AlertControllerView.m */,
+				48485CC21D62BC21008E6C31 /* CocoaTouchFrameworkDemo.h */,
+				48485CC41D62BC21008E6C31 /* Info.plist */,
+			);
+			path = CocoaTouchFrameworkDemo;
+			sourceTree = "<group>";
+		};
+		48485CCF1D62BC21008E6C31 /* CocoaTouchFrameworkDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				48485CD01D62BC21008E6C31 /* CocoaTouchFrameworkDemoTests.m */,
+				48485CD21D62BC21008E6C31 /* Info.plist */,
+			);
+			path = CocoaTouchFrameworkDemoTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		48485CBD1D62BC21008E6C31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48485CC31D62BC21008E6C31 /* CocoaTouchFrameworkDemo.h in Headers */,
+				48485CE11D62DC46008E6C31 /* AlertControllerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		4807AE3D1D6166C700B1F56F /* gitDemo */ = {
@@ -150,10 +259,12 @@
 				4807AE3A1D6166C700B1F56F /* Sources */,
 				4807AE3B1D6166C700B1F56F /* Frameworks */,
 				4807AE3C1D6166C700B1F56F /* Resources */,
+				48485CDC1D62BC21008E6C31 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				48485CD41D62BC21008E6C31 /* PBXTargetDependency */,
 			);
 			name = gitDemo;
 			productName = gitDemo;
@@ -196,6 +307,43 @@
 			productReference = 4807AE621D6166C700B1F56F /* gitDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		48485CBF1D62BC21008E6C31 /* CocoaTouchFrameworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48485CDB1D62BC21008E6C31 /* Build configuration list for PBXNativeTarget "CocoaTouchFrameworkDemo" */;
+			buildPhases = (
+				48485CBB1D62BC21008E6C31 /* Sources */,
+				48485CBC1D62BC21008E6C31 /* Frameworks */,
+				48485CBD1D62BC21008E6C31 /* Headers */,
+				48485CBE1D62BC21008E6C31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaTouchFrameworkDemo;
+			productName = CocoaTouchFrameworkDemo;
+			productReference = 48485CC01D62BC21008E6C31 /* CocoaTouchFrameworkDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		48485CC81D62BC21008E6C31 /* CocoaTouchFrameworkDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48485CDD1D62BC21008E6C31 /* Build configuration list for PBXNativeTarget "CocoaTouchFrameworkDemoTests" */;
+			buildPhases = (
+				48485CC51D62BC21008E6C31 /* Sources */,
+				48485CC61D62BC21008E6C31 /* Frameworks */,
+				48485CC71D62BC21008E6C31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48485CCC1D62BC21008E6C31 /* PBXTargetDependency */,
+				48485CCE1D62BC21008E6C31 /* PBXTargetDependency */,
+			);
+			name = CocoaTouchFrameworkDemoTests;
+			productName = CocoaTouchFrameworkDemoTests;
+			productReference = 48485CC91D62BC21008E6C31 /* CocoaTouchFrameworkDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -213,6 +361,13 @@
 						TestTargetID = 4807AE3D1D6166C700B1F56F;
 					};
 					4807AE611D6166C700B1F56F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4807AE3D1D6166C700B1F56F;
+					};
+					48485CBF1D62BC21008E6C31 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					48485CC81D62BC21008E6C31 = {
 						CreatedOnToolsVersion = 7.2.1;
 						TestTargetID = 4807AE3D1D6166C700B1F56F;
 					};
@@ -234,6 +389,8 @@
 				4807AE3D1D6166C700B1F56F /* gitDemo */,
 				4807AE561D6166C700B1F56F /* gitDemoTests */,
 				4807AE611D6166C700B1F56F /* gitDemoUITests */,
+				48485CBF1D62BC21008E6C31 /* CocoaTouchFrameworkDemo */,
+				48485CC81D62BC21008E6C31 /* CocoaTouchFrameworkDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,6 +420,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		48485CBE1D62BC21008E6C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48485CC71D62BC21008E6C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -270,9 +441,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48485CE01D62D949008E6C31 /* AlertControllerView.m in Sources */,
 				4807AE491D6166C700B1F56F /* ViewController2.m in Sources */,
 				4807AE461D6166C700B1F56F /* AppDelegate.m in Sources */,
 				4807AE431D6166C700B1F56F /* main.m in Sources */,
+				48E5EF011D619C180019F289 /* Logger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +465,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		48485CBB1D62BC21008E6C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48485CC51D62BC21008E6C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48485CD11D62BC21008E6C31 /* CocoaTouchFrameworkDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -304,6 +492,21 @@
 			isa = PBXTargetDependency;
 			target = 4807AE3D1D6166C700B1F56F /* gitDemo */;
 			targetProxy = 4807AE631D6166C700B1F56F /* PBXContainerItemProxy */;
+		};
+		48485CCC1D62BC21008E6C31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48485CBF1D62BC21008E6C31 /* CocoaTouchFrameworkDemo */;
+			targetProxy = 48485CCB1D62BC21008E6C31 /* PBXContainerItemProxy */;
+		};
+		48485CCE1D62BC21008E6C31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4807AE3D1D6166C700B1F56F /* gitDemo */;
+			targetProxy = 48485CCD1D62BC21008E6C31 /* PBXContainerItemProxy */;
+		};
+		48485CD41D62BC21008E6C31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48485CBF1D62BC21008E6C31 /* CocoaTouchFrameworkDemo */;
+			targetProxy = 48485CD31D62BC21008E6C31 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -353,6 +556,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/gitDemo/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -364,6 +568,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -395,6 +600,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/gitDemo/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -402,6 +608,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -479,6 +686,66 @@
 			};
 			name = Release;
 		};
+		48485CD71D62BC21008E6C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CocoaTouchFrameworkDemo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anvei.CocoaTouchFrameworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48485CD81D62BC21008E6C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CocoaTouchFrameworkDemo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anvei.CocoaTouchFrameworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48485CD91D62BC21008E6C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CocoaTouchFrameworkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anvei.CocoaTouchFrameworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gitDemo.app/gitDemo";
+			};
+			name = Debug;
+		};
+		48485CDA1D62BC21008E6C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CocoaTouchFrameworkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anvei.CocoaTouchFrameworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gitDemo.app/gitDemo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -517,6 +784,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		48485CDB1D62BC21008E6C31 /* Build configuration list for PBXNativeTarget "CocoaTouchFrameworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48485CD71D62BC21008E6C31 /* Debug */,
+				48485CD81D62BC21008E6C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48485CDD1D62BC21008E6C31 /* Build configuration list for PBXNativeTarget "CocoaTouchFrameworkDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48485CD91D62BC21008E6C31 /* Debug */,
+				48485CDA1D62BC21008E6C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
